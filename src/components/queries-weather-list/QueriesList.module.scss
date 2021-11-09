@@ -1,0 +1,30 @@
+.wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 8vh;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 20px;
+.title{
+  font-size: 18px;
+  font-weight: bold;
+}
+  .citiesBlock{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .city{
+      font-weight: 500;
+      font-size: 14px;
+      color: #6060ff;
+      margin: 5px 15px 5px 0;
+      cursor: pointer;
+
+    }
+  }
+}

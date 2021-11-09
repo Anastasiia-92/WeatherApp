@@ -1,0 +1,31 @@
+.wrap{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  .block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    min-height: 15vh;
+    border-radius: 4px;
+    margin: 15px 10px ;
+    min-width: 130px;
+  }
+  .dayName{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .description{
+    color: #6060ff;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .temp{
+    font-size: 24px;
+    font-weight: bold;
+  }
+}

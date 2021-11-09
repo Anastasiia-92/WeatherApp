@@ -1,0 +1,18 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+  .temp {
+    font-size: 24px;
+  }
+
+  .description {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6060ff;
+  }
+}
